@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade Summary</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1>Update Circuit Limit</h1>
+
+    <form class="my-4">
+        <div class="form-group">
+          <label for="circuit_up_below_200">circuit up below 200</label>
+          <input type="text" class="form-control" name="circuit_up_below_200" id="circuit_up_below_200">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_down_below_200">circuit down below 200</label>
+            <input type="text" class="form-control" name="circuit_down_below_200" id="circuit_down_below_200">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_up_between_200_500">circuit up between 200 500</label>
+            <input type="text" class="form-control" name="circuit_up_between_200_500" id="circuit_up_between_200_500">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_down_between_200_500">circuit down between 200 500</label>
+            <input type="text" class="form-control" name="circuit_down_between_200_500" id="circuit_down_between_200_500">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_up_between_500_1000">circuit up between 500 1000</label>
+            <input type="text" class="form-control" name="circuit_up_between_500_1000" id="circuit_up_between_500_1000">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_down_between_500_1000">circuit down between 500 1000</label>
+            <input type="text" class="form-control" name="circuit_down_between_500_1000" id="circuit_down_between_500_1000">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_up_between_1000_2000">circuit up between 1000 2000</label>
+            <input type="text" class="form-control" name="circuit_up_between_1000_2000" id="circuit_up_between_1000_2000">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_down_between_1000_2000">circuit down between 1000 2000</label>
+            <input type="text" class="form-control" name="circuit_down_between_1000_2000" id="circuit_down_between_1000_2000">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_up_between_2000_5000">circuit up between 2000 5000</label>
+            <input type="text" class="form-control" name="circuit_up_between_2000_5000" id="circuit_up_between_2000_5000">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_down_between_2000_5000">circuit down between 2000 5000</label>
+            <input type="text" class="form-control" name="circuit_down_between_2000_5000" id="circuit_down_between_2000_5000">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_up_above_5000">circuit up above 5000</label>
+            <input type="text" class="form-control" name="circuit_up_above_5000" id="circuit_up_above_5000">
+        </div>
+
+        <div class="form-group">
+            <label for="circuit_down_above_5000">circuit down above 5000</label>
+            <input type="text" class="form-control" name="circuit_down_above_5000" id="circuit_down_above_5000">
+        </div>
+
+        <button type="submit" id="updateCircuitLimitForm" class="btn btn-secondary">Sumit</button>
+      </form>
+    
+    
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="../static/update_cl.js"></script>
+</body>
+
+</html>
